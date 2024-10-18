@@ -1,0 +1,62 @@
+ 
+        body {
+            background-color: lightyellow;
+            text-align: center;
+        }
+        form {
+            max-width: 1000px;
+            margin: 0 auto; /* Center the form */
+            text-align: center; /* Align text left inside the form */
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white; /* Make form stand out against background */
+        }
+        h1, h2, h3, p {
+            text-align: center;
+        }
+        h2, h3 {
+            color: red;
+        }
+        div {
+            margin-bottom: 15px; /* Add spacing between each input field */
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+            padding-right: 10px;
+        }
+        input[type="radio"] {
+            margin-left: 10px; /* Add spacing between radio buttons */
+            margin-right: 5px;
+        }
+        .rate {
+            text-align: center; /* Center the radio buttons */
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 500px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            width: 100%; /* Make textarea responsive */
+            height: 100px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
